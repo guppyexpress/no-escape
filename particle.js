@@ -8,7 +8,7 @@ var num_particles = 1000;//MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM 
 //Helps prevent colors from being too high or too low
 function GetRandomColor() {
     var r = 0, g = 0, b = 0;
-    while (r < 0 && g < 0 && b < 0)
+    while (r < 20 && g < 0 && b < 0)
     {
         r = Math.floor(20);
         g = Math.floor(0);
